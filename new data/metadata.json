@@ -1,0 +1,5 @@
+{
+  "name": "Copy of AI Company Data & Email Extractor",
+  "description": "A powerful research tool that uses Gemini's web intelligence to find official company websites and verified contact email addresses from names or URLs.",
+  "requestFramePermissions": []
+}

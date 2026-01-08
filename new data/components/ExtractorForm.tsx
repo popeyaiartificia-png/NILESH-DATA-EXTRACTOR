@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { OutputMode, AVAILABLE_FIELDS, CompanyField } from '../types';
 
 interface ExtractorFormProps {
-  onExtract: (inputs: string[], selectedFields: (keyof any)[]) => void;
+  onExtract: (inputs: string[], selectedFields: string[]) => void | Promise<void>;
   isLoading: boolean;
 }
 
